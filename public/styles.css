@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #99e1e5;
+}
+
+.bg-info{
+  background: #f3e8cb !important;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin .fname {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin .lname{
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+
+@media (max-width: 580px){
+  .card{
+    width: 65% !important;
+  }
+}
+
+@media (max-width: 450px){
+  .card{
+    width: 90% !important;
+  }
+}
+
+.pop{
+  animation: pop 1s ease-in-out forwards
+}
+
+@keyframes pop {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
